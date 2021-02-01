@@ -1,0 +1,18 @@
+.blogs {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  justify-content: center;
+  max-width: 70vw;
+}
+.blog-preview {
+  background-color: #edf2f4;
+  margin: 0.5rem 0.3rem;
+  width: 60vw;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 15);
+  border-radius: 12px;
+  padding: 12px;
+}
+div.blog-preview:nth-child() {
+  color: #333;
+}
